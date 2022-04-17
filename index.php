@@ -7,7 +7,7 @@ if ($uri == '/' and $method == 'GET') {
 
   $SynUserIdentifier = $headers['Syn-User-Identifier'];
   if (isset($SynUserIdentifier)) {
-    echo $SynUserIdentifier
+    echo $SynUserIdentifier;
   };
 };
 ?>
